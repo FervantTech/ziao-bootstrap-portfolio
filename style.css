@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /*
@@ -18,10 +19,12 @@ body {
 /*
  * Header
  */
-
+h1 mark{
+  background-color: rgba(23, 142, 146, 0.322);
+}
 .banner-wrap {
   /* feel free to use your own img  */
-  background-image: url(./assets/4e1d43ceb79c905dfa24b19429c9a3af.JPG);
+  background-image: url(./assets/Background-Cover.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,4 +61,67 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+.scrolling {
+  background: black;
+  opacity: 80%;
+  transition: all 0.5s;
+}
+@media (prefers-color-scheme: dark) {
+   * {
+    color: white;
+  }
+  body {
+    background-color: #121212;
+    color: #fff;
+  }
+h1, h2, h3, h4, h5, h6,
+  p,
+  span,
+  label,
+  a {
+    color: white;
+  }
+  .card {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-color: #333;
+  }
+
+  .form-control {
+    background-color: #2a2a2a;
+    color: #fff;
+    border-color: #444;
+  }
+
+  .form-control::placeholder {
+    color: #aaa;
+  }
+
+ .btn-outline-dark {
+    color: #fff;
+    border-color: #424242;
+  }
+
+  .btn-outline-dark:hover {
+    background-color: #bbbbbb;
+    color: #000  !important;
+  }
+
+  .badge.bg-dark {
+    background-color: #333 !important;
+  }
+
+  #about-me,
+  #projects,
+  #contact {
+    background-color: #121212;
+  }
+  footer {
+    background-color: #000 !important;
+    color: white;
+}
+.bg-dark {
+    background-color: #000 !important;
+  }
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="h-100">
   <head>
     <meta charset="utf-8" />
@@ -25,21 +25,28 @@
     />
 
     <!-- Bootstrap icons  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body class="bg-dark">
+  <body class="bg-white">
+    <a href="#about-me" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
     <div class="banner-wrap vh-100 vw-100 text-white">
       <div class="overlay"></div>
-      <header class="px-5 p-3 text-white">
+      <header class="px-5 p-3 text-white fixed-top scrolling">
         <div>
           <h3 class="float-md-start text-center">Portfolio</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#about-me">About Me</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </nav>
         </div>
       </header>
@@ -47,11 +54,14 @@
         class="d-flex flex-column align-items-center justify-content-center h-75 text-center"
       >
         <h1 class="display-1">I am Devon Lotter</h1>
-        <p class="lead">Fullstack Developer, Coding instructor. Enterpreneur</p>
+        <p class="lead">
+          Front-End Developer, IT Support Technician, CompTIA Certified
+          Professional
+        </p>
       </main>
     </div>
-<!-- My card -->
-    <section>
+    <!-- My card -->
+    <section id="about-me">
       <div class="container p-5">
         <div class="card">
           <div class="card-body">
@@ -60,22 +70,28 @@
                 <div class="row">
                   <div class="col-md-5">
                     <img
-                      src="./assets/unnamed.jpg"
+                      src="./assets/Photo.jpg"
                       class="img-fluid"
-                      alt="..."
+                      alt="Portfolio profile photo"
                     />
                   </div>
                   <div class="col-md-7 mt-3">
                     <p><strong>Name:</strong> Devon Lotter</p>
-                    <p><strong>Profile:</strong>Front-end Developer</p>
-                    <p><strong>Email:</strong>devon19990828@gmail.com</p>
-                    <p><strong>Phone:</strong>+27 840523176</p>
+                    <p><strong>Profile:</strong> Front-end Developer</p>
+                    <p><strong>Email:</strong> devon.lotter99@gmail.com</p>
+                    <p><strong>Phone:</strong> +27 840523176</p>
                     <p>
                       <strong>Skills:</strong>
                       <span class="badge rounded-pill bg-dark">HTML</span>
                       <span class="badge rounded-pill bg-dark">CSS</span>
                       <span class="badge rounded-pill bg-dark">git</span>
-  
+                      <span class="badge rounded-pill bg-dark">javascript</span>
+                      <span class="badge rounded-pill bg-dark">ReactJS</span>
+                      <span class="badge rounded-pill bg-dark">Bootstrap</span>
+                      <span class="badge rounded-pill bg-dark">React</span>
+                      <span class="badge rounded-pill bg-dark">GitHub</span>
+                      <span class="badge rounded-pill bg-dark">CompTIA A+</span>
+                      <span class="badge rounded-pill bg-dark">Network+</span>
                     </p>
                   </div>
                 </div>
@@ -83,10 +99,11 @@
               <div class="col-md-6 mt-3">
                 <h1 class="text-center text-md-start"><mark>About me</mark></h1>
                 <p class="lead">
-                  IT Support Technician with experience in healthcare environments
-                  and a strong foundation in hardware, networking, 
-                  and troubleshooting. CompTIA A+, Network+, and Security+ certified, with a proven 
-                  ability to resolve technical issues efficiently and support critical systems.
+                  IT Support Technician with experience in healthcare
+                  environments and a strong foundation in hardware, networking,
+                  and troubleshooting. CompTIA A+, Network+, and Security+
+                  certified, with a proven ability to resolve technical issues
+                  efficiently and support critical systems.
                 </p>
               </div>
             </div>
@@ -94,23 +111,33 @@
         </div>
       </div>
     </section>
-<!-- Projects -->
-    <section>
+    <!-- Projects -->
+    <section id="projects">
       <div class="container p-5">
         <h1 class="text-center"><mark>Projects</mark></h1>
         <div class="row">
           <div class="col-md-4 mt-3">
             <div class="card">
               <img
-                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png"
+                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/Tesla.png"
                 class="card-img-top"
-                alt="..."
+                alt="Tesla landing page project"
               />
               <div class="card-body">
-                <h5 class="card-title">Netflix Landing Page</h5>
+                <h5 class="card-title">Tesla Landing Page</h5>
                 <p class="card-text">Built this with HTML & CSS</p>
-                <a href="https://vc-netflix.netlify.app" target="_blank" class="btn btn-primary">View Website</a>
-                <a href="https://github.com/akhilboddu/vc-netflix" target="_blank" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+                <a
+                  href="https://devon-teslaclone.netlify.app"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >View Website</a
+                >
+                <a
+                  href="https://github.com/FervantTech/tesla-assignment"
+                  target="_blank"
+                  class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -120,13 +147,23 @@
               <img
                 src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png"
                 class="card-img-top"
-                alt="..."
+                alt="Netflix landing page project"
               />
               <div class="card-body">
                 <h5 class="card-title">Netflix Landing Page</h5>
                 <p class="card-text">Built this with HTML & CSS</p>
-                <a href="https://vc-netflix.netlify.app" target="_blank" class="btn btn-primary">View Website</a>
-                <a href="https://github.com/akhilboddu/vc-netflix" target="_blank" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+                <a
+                  href="https://totally-legit-streaming-flixnet.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >View Website</a
+                >
+                <a
+                  href="https://github.com/FervantTech/devon-netflixclone"
+                  target="_blank"
+                  class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -134,34 +171,173 @@
           <div class="col-md-4 mt-3">
             <div class="card">
               <img
-                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png"
+                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_youtube.png"
+                class="card-img-top"
+                alt="YouTube landing page project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Youtube Landing Page</h5>
+                <p class="card-text">Built this with HTML & CSS</p>
+                <a
+                  href="https://devon-youtube.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >View Website</a
+                >
+                <a
+                  href="https://github.com/FervantTech/devon-youtube-clone"
+                  target="_blank"
+                  class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png"
+                class="card-img-top"
+                alt="Twitter Clone"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Twitter Clone</h5>
+                <p class="card-text">Built this with HTML & CSS</p>
+                <a href="" target="_blank" class="btn btn-primary"
+                  >View Website</a
+                >
+                <a href="" target="_blank" class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_css_gk.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Netflix Landing Page</h5>
-                <p class="card-text">Built this with HTML & CSS</p>
-                <a href="https://vc-netflix.netlify.app" target="_blank" class="btn btn-primary">View Website</a>
-                <a href="https://github.com/akhilboddu/vc-netflix" target="_blank" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+                <h5 class="card-title">Google Keep Clone</h5>
+                <p class="card-text">
+                  Built this with HTML & CSS and JavaScript
+                </p>
+                <a href="" target="_blank" class="btn btn-primary"
+                  >View Website</a
+                >
+                <a href="" target="_blank" class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
               </div>
             </div>
-          </div>          
+          </div>
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/amazon.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amazon Clone</h5>
+                <p class="card-text">Built this React</p>
+                <a href="" target="_blank" class="btn btn-primary"
+                  >View Website</a
+                >
+                <a href="" target="_blank" class="btn btn-outline-dark"
+                  ><i class="bi bi-code-slash"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Lets Connect -->
-     <section>
+    <section id="contact">
       <div class="container p-5">
         <div class="card p-3">
           <div class="card-body px-5 text-center">
-           <h1><mark>Let's Connect</mark></h1>
-           <p class="lead">Would love to connect with fellow developers, employers looking for developers, or anyone looking to get web development done.</p>
-           <a class="fs-2" href=""><i class="bi bi-instagram m-2"></i></a>
-           <a class="fs-2" href=""><i class="bi bi-linkedin m-2"></i></a>
-           <a class="fs-2" href=""><i class="bi bi-github m-2"></i></a>
+            <h1><mark>Contact Me</mark></h1>
+            <p class="lead">
+              Would love to connect with fellow developers, employers looking
+              for developers, or anyone looking to get web development done.
+            </p>
+            <a class="fs-2" href="https://www.instagram.com/fervanttech/"
+              ><i class="bi bi-instagram m-2"></i
+            ></a>
+            <a
+              class="fs-2"
+              href="https://www.linkedin.com/in/devon-lotter-19b331419/"
+              ><i class="bi bi-linkedin m-2"></i
+            ></a>
+            <a class="fs-2" href="https://github.com/FervantTech"
+              ><i class="bi bi-github m-2"></i
+            ></a>
+
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter Email Address"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Subject</label>
+                <input
+                  type="subject"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Enter Subject"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Description</label>
+                <textarea
+                  class="form-control"
+                  aria-label="with textarea"
+                  placeholder="Enter Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-3">
+        <p class="lead fs-6">
+          Developed by Devon Lotter using Bootstrap, for portfolio purposes
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
