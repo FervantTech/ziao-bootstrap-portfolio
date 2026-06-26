@@ -23,8 +23,6 @@ This project is a personal portfolio website built using HTML, CSS, and Bootstra
 
 ## Credits
 
-The project preview images used in this portfolio are from the ZAIO courses and are used for learning and demonstration purposes only.
-
 Bootstrap 5 CSS framework was used for layout, components, responsive design, and utility classes.
 
 Bootstrap Icons were used for the social media and project icons.
