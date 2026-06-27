@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 /*
@@ -19,7 +18,7 @@ body {
 /*
  * Header
  */
-h1 mark{
+h1 mark {
   background-color: rgba(23, 142, 146, 0.322);
 }
 .banner-wrap {
@@ -66,16 +65,26 @@ h1 mark{
   background: black;
   opacity: 80%;
   transition: all 0.5s;
+
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
 }
 @media (prefers-color-scheme: dark) {
-   * {
+  * {
     color: white;
   }
   body {
     background-color: #121212;
     color: #fff;
   }
-h1, h2, h3, h4, h5, h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
   p,
   span,
   label,
@@ -98,14 +107,14 @@ h1, h2, h3, h4, h5, h6,
     color: #aaa;
   }
 
- .btn-outline-dark {
+  .btn-outline-dark {
     color: #fff;
     border-color: #424242;
   }
 
   .btn-outline-dark:hover {
     background-color: #bbbbbb;
-    color: #000  !important;
+    color: #000 !important;
   }
 
   .badge.bg-dark {
@@ -120,8 +129,13 @@ h1, h2, h3, h4, h5, h6,
   footer {
     background-color: #000 !important;
     color: white;
-}
-.bg-dark {
+  }
+  .bg-dark {
     background-color: #000 !important;
+  }
+
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
   }
 }
